@@ -49,9 +49,18 @@ article {
 
   }
 
-  section {
+  section { 
 
   display: flex;
+
+  @media @mobile {
+    flex-flow: column;
+
+    img {
+      display: none;
+    }
+
+  }
 
   }
 
@@ -77,15 +86,16 @@ section h2 {
   margin: 2% 0%;
   text-align: center;
 
-  @media @mobile {
-    color: @second-color;
-  }
 }
 
 p {
   font-size: 20px;
   color: @second-color;
   margin: 0% 30%;
+
+  @media @tablet {
+    margin: 5% 10%;
+  }
 }
 
 h1 {
@@ -121,6 +131,15 @@ a {
 
 form label {
   color: @main-color;
+}
+
+.features article {
+  @media @tablet {
+    width: 25%;
+  }
+  @media @mobile {
+    width: 100%;
+  }
 }
 
 }

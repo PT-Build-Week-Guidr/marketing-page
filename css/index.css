@@ -36,6 +36,14 @@ article p {
 .container section {
   display: flex;
 }
+@media (max-width: 500px) {
+  .container section {
+    flex-flow: column;
+  }
+  .container section img {
+    display: none;
+  }
+}
 .container .creator-pic {
   border: 1px solid #00A693;
   border-radius: 15%;
@@ -55,15 +63,15 @@ article p {
   margin: 2% 0%;
   text-align: center;
 }
-@media (max-width: 500px) {
-  .container section h2 {
-    color: #9f7462;
-  }
-}
 .container p {
   font-size: 20px;
   color: #9f7462;
   margin: 0% 30%;
+}
+@media (max-width: 800px) {
+  .container p {
+    margin: 5% 10%;
+  }
 }
 .container h1 {
   color: #00A693;
@@ -90,6 +98,16 @@ article p {
 }
 .container form label {
   color: #00A693;
+}
+@media (max-width: 800px) {
+  .container .features article {
+    width: 25%;
+  }
+}
+@media (max-width: 500px) {
+  .container .features article {
+    width: 100%;
+  }
 }
 nav {
   padding-bottom: 1%;
