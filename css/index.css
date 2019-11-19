@@ -14,7 +14,7 @@ article {
 article h2 {
   margin: 0% 0%;
   color: #00A693;
-  text-shadow: 3px 3px 6px black;
+  text-shadow: 3px 3px 6px #9f7462;
   font-size: 300%;
 }
 article p {
@@ -58,7 +58,7 @@ article p {
 }
 .container section h2 {
   color: #00A693;
-  text-shadow: 3px 3px 6px black;
+  text-shadow: 3px 3px 6px #9f7462;
   font-size: 290%;
   margin: 2% 0%;
   text-align: center;
@@ -75,13 +75,13 @@ article p {
 }
 .container h1 {
   color: #00A693;
-  text-shadow: 3px 3px 6px black;
+  text-shadow: 3px 3px 6px #9f7462;
   font-size: 500%;
   text-align: center;
 }
 .container h3 {
   color: #00A693;
-  text-shadow: 3px 3px 6px black;
+  text-shadow: 3px 3px 6px #9f7462;
   font-size: 100%;
 }
 .container li {
@@ -108,6 +108,59 @@ article p {
   .container .features article {
     width: 100%;
   }
+}
+.container-bio {
+  background: black;
+  text-align: center;
+}
+.container-bio h1 {
+  color: #00A693;
+  text-shadow: 3px 3px 6px #9f7462;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.container-bio h4 {
+  color: #00A693;
+  text-shadow: 3px 3px 6px #9f7462;
+  font-size: 200%;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.container-bio h2 {
+  color: #00A693;
+  text-shadow: 3px 3px 6px #9f7462;
+  font-size: 350%;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.container-bio img {
+  border: 1px solid #00A693;
+  border-radius: 15%;
+  width: 33%;
+  height: 15%;
+  margin-top: 2%;
+}
+.container-bio p {
+  color: #9f7462;
+  font-size: x-large;
+  margin: 1% 1%;
+}
+.container-bio ul {
+  list-style-type: none;
+}
+.container-bio ul li {
+  margin: 1% 0%;
+  color: #9f7462;
+}
+.container-bio ul li a {
+  font-size: xx-large;
+}
+.container-bio ul li a i {
+  color: red;
 }
 nav {
   padding-bottom: 1%;
