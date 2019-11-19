@@ -164,6 +164,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   padding: 3%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 p {
   padding: 3%;
@@ -268,16 +269,14 @@ footer {
   padding: 1%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.header {
-  margin: 2%;
-  padding: 2%;
-}
 .topContainer {
-  padding: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-bottom: 1px solid #9f7462;
 }
 .headerImage {
   margin: 0;
@@ -298,6 +297,7 @@ footer {
   align-items: center;
   flex-direction: column;
   padding: 2%;
+  border-bottom: 1px solid #9f7462;
 }
 @media (max-width: 800px) {
   .headerContainer {
@@ -312,6 +312,8 @@ footer {
   align-items: center;
   margin: 2%;
   padding: 2%;
+  padding: 6%;
+  border-bottom: 1px solid #9f7462;
 }
 .middle-section img {
   border-radius: 10px;
@@ -350,6 +352,8 @@ footer {
   align-items: center;
   margin: 2%;
   padding: 2%;
+  padding: 6%;
+  border-bottom: 1px solid #9f7462;
 }
 .bottom-section img {
   border-radius: 10px;
