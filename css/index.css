@@ -166,6 +166,9 @@ h2 {
   padding: 3%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+i {
+  font-size: 3em;
+}
 p {
   padding: 3%;
   font-size: 0.9em;
