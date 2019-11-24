@@ -1,9 +1,9 @@
 // .divider-bar{
 //     border-bottom: 2px;
 // }
-.header{
-    // .marginPaddingBorder;
-}
+// .header{
+//     // .marginPaddingBorder;
+// }
 .topContainer{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -25,19 +25,27 @@
 .headerContainer{
     .centering;
     flex-direction: column;
-    padding: 2%;
+    padding: 4%;
     border-bottom: 1px solid @secondaryColor;
     @media @tablet{
         flex-direction: column;
-        .centering;
+        padding: 0;
+        margin: 0;
+
+    }
+    @media @mobile{
+        p{
+            padding: 5%;
+        }
+        border-bottom: none;
     }
 
 }
 .middle-section{
     display: flex;
     align-items: center;
-    .marginPaddingBorder;
-    padding: 6%;
+    // .marginPaddingBorder;
+    padding: 4%;
     border-bottom: 1px solid @secondaryColor;
     img{
         .imgProp;
@@ -50,7 +58,9 @@
     }
     @media @mobile{
         flex-direction: column-reverse;
-        padding: 0;
+        padding: 2%;
+        margin: 0;
+        border-bottom: none;
     }
 }
 .middleContainer{
@@ -58,7 +68,7 @@
             padding-right: 10%;
         }
         @media @mobile{
-            padding: 0;
+            padding: 5%;
             flex-direction: column-reverse;
             align-items: center;
         }
@@ -66,8 +76,8 @@
 .bottom-section{
     display: flex;
     align-items: center;
-    .marginPaddingBorder;
-    padding: 6%;
+    // .marginPaddingBorder;
+    padding: 4%;
     border-bottom: 1px solid @secondaryColor;
     img{
         .imgProp;
@@ -80,6 +90,9 @@
     // }
     @media @mobile{
         flex-direction: column;
+        margin: 0;
+        padding: 6%;
+        border-bottom: none;
     }
 }
 .bottomContainer{
@@ -95,7 +108,7 @@
  }
 
 .quote{
-    padding-top: 5%;
+    padding-top: 3%;
     .centering;
     flex-direction: column;
     h1{
@@ -106,6 +119,7 @@
         padding-top: 10%;
         @media @mobile{
             font-size: 1.7em;
+            padding: 5%;
         }
     }
     img{
