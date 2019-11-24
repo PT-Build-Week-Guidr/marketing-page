@@ -168,6 +168,7 @@ h2 {
 }
 i {
   font-size: 3em;
+  padding: 3%;
 }
 p {
   padding: 3%;
@@ -184,6 +185,13 @@ p {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }
 nav {
   max-height: 300px;
@@ -206,7 +214,7 @@ nav {
 @media (max-width: 500px) {
   nav {
     flex-direction: column;
-    padding: 4%;
+    padding: 0;
   }
 }
 .navContainer {
@@ -263,6 +271,8 @@ footer {
 @media (max-width: 800px) {
   .footerContainer {
     flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
 }
 .rightsReserved {
@@ -299,23 +309,28 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 2%;
+  padding: 4%;
   border-bottom: 1px solid #9f7462;
 }
 @media (max-width: 800px) {
   .headerContainer {
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (max-width: 500px) {
+  .headerContainer {
+    border-bottom: none;
+  }
+  .headerContainer p {
+    padding: 5%;
   }
 }
 .middle-section {
   display: flex;
   align-items: center;
-  margin: 2%;
-  padding: 2%;
-  padding: 6%;
+  padding: 4%;
   border-bottom: 1px solid #9f7462;
 }
 .middle-section img {
@@ -335,7 +350,9 @@ footer {
 @media (max-width: 500px) {
   .middle-section {
     flex-direction: column-reverse;
-    padding: 0;
+    padding: 2%;
+    margin: 0;
+    border-bottom: none;
   }
 }
 @media (max-width: 800px) {
@@ -345,7 +362,7 @@ footer {
 }
 @media (max-width: 500px) {
   .middleContainer {
-    padding: 0;
+    padding: 5%;
     flex-direction: column-reverse;
     align-items: center;
   }
@@ -353,9 +370,7 @@ footer {
 .bottom-section {
   display: flex;
   align-items: center;
-  margin: 2%;
-  padding: 2%;
-  padding: 6%;
+  padding: 4%;
   border-bottom: 1px solid #9f7462;
 }
 .bottom-section img {
@@ -370,6 +385,9 @@ footer {
 @media (max-width: 500px) {
   .bottom-section {
     flex-direction: column;
+    margin: 0;
+    padding: 6%;
+    border-bottom: none;
   }
 }
 @media (max-width: 800px) {
@@ -386,7 +404,7 @@ footer {
   }
 }
 .quote {
-  padding-top: 5%;
+  padding-top: 3%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -402,6 +420,7 @@ footer {
 @media (max-width: 500px) {
   .quote h1 {
     font-size: 1.7em;
+    padding: 5%;
   }
 }
 .quote img {
